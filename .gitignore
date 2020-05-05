@@ -1,0 +1,4 @@
+*.log
+*.xz
+.heroku-app-info.json
+root-fs
