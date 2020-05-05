@@ -32,7 +32,7 @@ Steps as follows:
   1. You'll need a Heroku account
   2. `git clone https://github.com/virtualstaticvoid/heroku-proot-poc`
   3. `cd heroku-proot-poc`
-  4. `heroku create --buildpack https://github.com/niteoweb/heroku-buildpack-shell.git`
+  4. `heroku create --stack heroku-18 --buildpack https://github.com/niteoweb/heroku-buildpack-shell.git`
   5. `git push heroku master`
 
 ## Specifications

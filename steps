@@ -8,5 +8,5 @@ docker build --tag vsv/proot-tests .
 docker run -it vsv/proot-tests
 
 # "remote"
-heroku create --buildpack https://github.com/niteoweb/heroku-buildpack-shell.git
+heroku create --stack heroku-18 --buildpack https://github.com/niteoweb/heroku-buildpack-shell.git
 git push heroku master
